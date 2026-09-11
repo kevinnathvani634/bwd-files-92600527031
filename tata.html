@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Horizontal Menu</title>
+    <style>
+      
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+
+      
+        .navbar {
+            background-color: #1e293b;
+            padding: 0 20px;
+        }
+
+        .menu {
+            display: flex;
+            list-style: none;
+        }
+
+        .menu a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 20px 25px;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+
+        
+        .menu a:hover {
+            background-color: #3b82f6;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>
